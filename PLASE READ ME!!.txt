@@ -1,0 +1,29 @@
+내 이름은 배터.
+본 코드 덩어리들은 OFF라는 세계를 한국어로 바꾸는 작업을 도와준다 생각하는 것들이다.
+지금부터 하나하나 설명하겠다. (설명은 내 인형사, qhtjr이 진행한다.)
+
+[txt_to_xlsx.py]
+EN.txt라는 이름을 가진 파일을 result.xlsx 엑셀 파일로 바꿔줍니다.
+(즉, 어떤 파일이라도 이름만 EN.txt로 바꿔주면 정상 작동합니다!!)
+
+[xlsx_to_txt.py]
+result.xlsx라는 엑셀 파일을 result.txt라는 파일로 바꿔줍니다.
+(이걸 EN.txt로 바꿔서 게임에 적용하면 됩니다.)
+
+---
+
+[hangul_charcterSequence.py]
+string characterSequence의 값을 작성하기 위한 파일입니다.
+실행시키면 나오는 것을 복사해 적용해주면 됩니다.
+
+[hangul_m_GlyphTable.py]
+Glyph m_GlyphTable의 값을 작성하기 위한 파일입니다.
+실행시키면 나오는 것을 복사해 적용해주면 됩니다.
+
+[hangul_m_CharacterTable.py]
+TMP_Character TMP_Character m_CharacterTable의 값을 작성하기 위한 파일입니다.
+실행시키면 나오는 것을 복사해 적용해주면 됩니다.
+
+[hangul_m_UsedGlyphRects.py]
+GlyphRect m_UsedGlyphRects의 값을 작성하기 위한 파일입니다.
+실행시키면 나오는 것을 복사해 적용해주면 됩니다.
